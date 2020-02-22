@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catalogo">
+
+    <!--
+     <android.support.v7.widget.RecyclerView
+        android:id="@+id/catalogolist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:scrollbars="vertical" />
+-->
+
+
+    <ListView
+        android:id="@+id/catalogolist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:dividerHeight="2dp"/>
+
+
+
+    <!--<TextView
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/buscar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="30dp"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        colo/>
+</FrameLayout>

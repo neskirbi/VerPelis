@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_version">1</string>
+
+    <string name="app_name">VerPelis</string>
+    <string name="app_dominio">VerPelis</string>
+
+    <string name="Url_visitas">api/Updates</string>
+    <string name="Url_updates">api/Updates</string>
+</resources>
